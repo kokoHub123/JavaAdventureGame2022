@@ -15,3 +15,37 @@ Room (14 tasks)
  + void setName(String _name)
  + toString() // returns the description
 */
+public class Room{
+ private String name;
+ private String description;
+ private Npc character;
+ private Item roomItem;
+ private Room north;
+ private Room south;
+ private Room east;
+ private Room west;
+ public Room(){
+  name = "";
+  description = "";
+  character = null;
+  roomItem = null;
+  north = null;
+  south = null;
+  east = null;
+  west = null;
+  
+ }
+ public Room(String _name){
+  name = _name;
+  description = "";
+  character = null;
+  roomItem = null;
+  north = null;
+  south = null;
+  east = null;
+  west = null;
+ }
+ public Npc getCharacter(){
+  return character;
+ }
+}

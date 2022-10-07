@@ -32,21 +32,24 @@ public class Npc
 
   public String getSpeech()
   {
-    return "x";
+    return speech;
   }
 
-  public void setDescription(String d)
+  public void setDescription(String _description)
   {
+   description = _description;
 
   }
 
   public void setName(String _name)
   {
+   name = _name;
 
   }
 
   public void setSpeech(String _speech)
   {
+   speech = _speech
 
   }
 

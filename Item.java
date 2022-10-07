@@ -19,16 +19,16 @@ public class Item
   // instance variables go here
   // private instance vars for name, strength, description, int magicType, Random rng
 
-  // set magicType to a random number 1-3 (inclusive)
+  
   public Item()
   {
-
+    // set magicType to a random number 1-3 (inclusive)
   }
 
-  // set magicType to 1
+
   public Item(String _name, String _description)
   {
-
+    // set magicType to 1
   }
   public String toString(){
     return "x";

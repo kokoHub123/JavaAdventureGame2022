@@ -8,12 +8,12 @@ Room (14 tasks)
  dibs AB + Room getLocationTo(String direction)
  dibs AB + String getName()
  dibs AB + String getPossibleDirections()
- + void linkRoom(Room r, String direction)
- + void setCharacter(Npc character)
- + void setDescription(String d)
+ dibs RK + void linkRoom(Room r, String direction)
+ dibs RK + void setCharacter(Npc character)
+ dibs RK + void setDescription(String d)
  + void setItem(Item i)
  + void setName(String _name)
- + toString() // returns the description
+ dibs RK + toString() // returns the description
 */
 public class Room{
   private String name;

@@ -12,4 +12,61 @@ Item (11 tasks)
  dibs WB + toString() // returns the description
  dibs WB + void weaken()
  */
+import java.util.Random;
+
+public class Item
+{
+  // instance variables go here
+  // private instance vars for name, strength, description, int magicType, Random rng
+
+  public Item()
+  {
+
+  }
+
+  public Item(String _name, String _description)
+  {
+
+  }
+  public String toString(){
+    return "x";
+  }
+
+
+  public int getMagicType()
+  {
+    return 0;
+  }
+
+  public String getName()
+  {
+    return "x";
+  }
+
+  public void setName(String _name)
+  {
+
+  }
+
+  public int getStrength()
+  {
+    return 0;
+  }
+
+  public void setDescription(String _string)
+  {
+
+  }
+
+ public void weaken()
+ {
+
+ }
+
+ public boolean isBroken()
+ {
+   return true;
+ }
+
+}
 

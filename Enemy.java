@@ -35,6 +35,7 @@ public class Enemy extends Npc
     return 0;
   }
 
+  // sets health to be health minus healthLost
   public void loseHealth(int healthLost){
 
   }

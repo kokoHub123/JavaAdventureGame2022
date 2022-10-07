@@ -16,36 +16,94 @@ Room (14 tasks)
  + toString() // returns the description
 */
 public class Room{
- private String name;
- private String description;
- private Npc character;
- private Item roomItem;
- private Room north;
- private Room south;
- private Room east;
- private Room west;
- public Room(){
-  name = "";
-  description = "";
-  character = null;
-  roomItem = null;
-  north = null;
-  south = null;
-  east = null;
-  west = null;
-  
- }
- public Room(String _name){
-  name = _name;
-  description = "";
-  character = null;
-  roomItem = null;
-  north = null;
-  south = null;
-  east = null;
-  west = null;
- }
- public Npc getCharacter(){
-  return character;
- }
+  private String name;
+  private String description;
+  private Npc character;
+  private Item roomItem;
+  private Room north;
+  private Room south;
+  private Room east;
+  private Room west;
+ 
+  public Room(){
+   name = "";
+   description = "";
+   character = null;
+   roomItem = null;
+   north = null;
+   south = null;
+   east = null;
+   west = null;
+
+  }
+ 
+  public Room(String _name){
+   name = _name;
+   description = "";
+   character = null;
+   roomItem = null;
+   north = null;
+   south = null;
+   east = null;
+   west = null;
+  }
+ 
+  public Npc getCharacter(){
+   return character;
+  }
+
+  public Item getItem()
+  {
+   return null;
+  }
+ 
+ // precondition: direction is either "north" or "south" or "east" or "west"
+  public Room getLocationTo(String direction)
+  {
+    return null
+  }
+
+  public String getName()
+  {
+    return "x";
+  }
+
+  public String getPossibleDirections()
+  {
+    return "x";
+  }
+
+  // precondition: direction is either "north" or "south" or "east" or "west"
+  public void linkRoom(Room r, String direction)
+  {
+
+  }
+
+  // sets the character to a Npc object that is passed into this method
+  public void setCharacter(Npc character)
+  {
+
+  }
+
+  public void setDescription(String newDescription)
+  {
+
+  }
+
+  public void setItem(Item i)
+  {
+
+  }
+
+  public void setName(String _name)
+  {
+
+  }
+
+  public String toString()
+  {
+    return "x";
+  }
+
+
 }

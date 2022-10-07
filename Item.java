@@ -58,15 +58,17 @@ public class Item
 
   }
 
- public void weaken()
- {
+  // sets strength to be strength divided by two
+  public void weaken()
+  {
 
- }
+  }
 
- public boolean isBroken()
- {
-   return true;
- }
+  // returns true if the strength is zero or less, otherwise returns true
+  public boolean isBroken()
+  {
+    return true;
+  }
 
 }
 

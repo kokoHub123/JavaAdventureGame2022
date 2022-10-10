@@ -31,7 +31,7 @@ public class Item
     // set magicType to 1
   }
   public String toString(){
-    return "x";
+    return description.toString();
   }
 
 
@@ -63,13 +63,18 @@ public class Item
   // sets strength to be strength divided by two
   public void weaken()
   {
-
+    strength = strength / 2;
   }
 
   // returns true if the strength is zero or less, otherwise returns true
   public boolean isBroken()
   {
+   if(strength<=0){
+    
     return true;
+   }else{
+    return false;
+   }
   }
 
 }

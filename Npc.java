@@ -27,7 +27,7 @@ public class Npc
 
   public String getName()
   {
-    return "x";
+    return description.toString();
   }
 
   public String getSpeech()

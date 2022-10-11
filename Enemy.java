@@ -21,14 +21,23 @@ public class Enemy extends Npc
   }
 
   // instance variables
+  private int health;
+  private int magicWeakness;
+  private String attackName;
   // private instance vars for health, int magicWeakness, attackName
 
   public Enemy(){
-
+    super();
+    health = 100;
+    magicWeakness = 35;
+    attackName = "slap";
   }
 
   public Enemy(String enemyName, String enemyDescription){
-
+    super(enemyName,enemyDescription);
+    health = 100;
+    magicWeakness = 35;
+    attackName = "slap";
   }
 
   public int getHealth(){
@@ -41,7 +50,7 @@ public class Enemy extends Npc
   }
 
   public String getAttackName(){
-    return "x";
+    return attackName;
   }
 
   public int getMagicWeakness(){

@@ -12,17 +12,22 @@ Npc (9 tasks)
  */
 public class Npc
 {
+ private String name;
+ private String speech;
+ private String description;
   // instance variable go here
   // private instance vars for name, speech, description
 
   public Npc()
   {
-
+    Npc();
+    
   }
 
   public Npc(String newName, String newDescription)
   {
-
+    name = newName;
+   description = newDescription;
   }
 
   public String getName()

@@ -12,22 +12,29 @@ Npc (9 tasks)
  */
 public class Npc
 {
+ private String name;
+ private String speech;
+ private String description
+  
   // instance variable go here
   // private instance vars for name, speech, description
 
   public Npc()
   {
-
+    name = "James Charles Bartholemule II";
+    speech = "Why hello there, traveler... I've been searching for a main character such as yourself."
+    description = "James Charles Bartholemule II, his first real name was James Charles, but after commiting several questionable acts, was thrown into a steel chamber and sent floating on a raft down the river of infinity to be banished for eternity..." 
   }
 
   public Npc(String newName, String newDescription)
   {
-
+    name = newName;
+    descriptio = newDescription;
   }
 
   public String getName()
   {
-    return description.toString();
+    return name
   }
 
   public String getSpeech()

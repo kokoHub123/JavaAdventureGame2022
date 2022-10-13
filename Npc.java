@@ -30,11 +30,12 @@ public class Npc
   {
     name = newName;
     description = newDescription;
+    speech = "Why hello there traveler... I've been expecting a main character such as yourself to cross paths with me...";
   }
 
   public String getName()
   {
-    return description.toString();
+    return name;
   }
 
   public String getSpeech()
